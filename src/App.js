@@ -64,7 +64,7 @@ function Links() {
     return LinksArray.map((item, i) => {
         return (
             <a className="Div-LinkItem" href={item.Link} target="_blank" rel="noopener noreferrer">
-                <img src={item.Icon} alt="Link" />
+                <img className="Div-LinkItem-Image" src={item.Icon} alt="Link" />
             </a>
         );
     });
