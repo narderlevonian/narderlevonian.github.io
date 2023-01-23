@@ -9,7 +9,11 @@
      src: local('HelveticaNeue')
           url(./typeface/HelveticaNeue.woff2)
           format('woff2');
-  }
+ }
+
+ * {
+     transition: 0.32s;
+ }
 
 .Main {
     display: flex;
@@ -94,7 +98,19 @@
     }
 
     .Paragraph-Description {
-        font-size: 1em;
+        font-size: 0.875em;
+        line-height: 1.3125em;
+        letter-spacing: 0.03125em;
+    }
+
+    .Paragraph-Info {
+        font-size: 0.875em;
+        line-height: 1.3125em;
+        letter-spacing: 0.03125em;
+    }
+
+    .Paragraph-Links {
+        font-size: 0.875em;
         line-height: 1.3125em;
         letter-spacing: 0.03125em;
     }
