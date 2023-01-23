@@ -14,35 +14,35 @@
 .Main {
     display: flex;
     flex-direction: column;
-    row-gap: 24px;
+    row-gap: 1.5em;
     margin: 0;
     width: 100%;
-    padding: 96px;
-    padding-bottom: 64px;
+    padding: 6em;
+    padding-bottom: 4em;
     background: #E1E3E9;
     color: #20232D;
 }
 
 .Paragraph-Name {
     font-family: 'Helvetica Neue Condensed Bold', Helvetica;
-    font-size: 96px;
-    line-height: 72px;
-    letter-spacing: -4px;
+    font-size: 6em;
+    line-height: 0.8em;
+    letter-spacing: -0.025em;
     margin: 0;
-    margin-left: -4px;
+    margin-left: -0.05em;
     color: #20232D;
 }
 
 .Paragraph-Description {
     font-family: 'Helvetica Neue', Helvetica;
-    font-size: 20px;
-    line-height: 21px;
-    letter-spacing: 0.5px;
+    font-size: 1.25em;
+    line-height: 1.3125em;
+    letter-spacing: 0.03125em;
     margin: 0;
     margin-right: auto;
     padding: 10px;
-    padding-right: 12px;
-    padding-left: 12px;
+    padding-right: 0.75em;
+    padding-left: 0.75em;
     background: #20232D;
     color: #E1E3E9;
 }
@@ -50,32 +50,32 @@
 .Paragraph-Info {
     font-family: 'Helvetica Neue', Helvetica;
     font-weight: 300;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.5px;
-    max-width: 568px;
+    font-size: 1em;
+    line-height: 1.5em;
+    letter-spacing: 0.03125em;
+    max-width: 36em;
     margin: 0;
-    margin-top: -8px;
+    margin-top: -0.5em;
     color: #20232D;
 }
 
 .Paragraph-Links {
     font-family: 'Helvetica Neue', Helvetica;
     font-weight: 300;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.5px;
-    max-width: 568px;
+    font-size: 1em;
+    line-height: 1.5em;
+    letter-spacing: 0.03125em;
+    max-width: 36em;
     margin: 0;
-    margin-top: -8px;
+    margin-top: -0.5em;
     color: #20232D;
 }
 
 .Div-Links {
     display: flex;
     flex-wrap: wrap;
-    row-gap: 16px;
-    column-gap: 16px;
+    row-gap: 1em;
+    column-gap: 1em;
 }
 
 .Div-LinkItem {
@@ -88,15 +88,14 @@
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 760px) {
     .Main {
-        padding: 72px;
-        padding-bottom: 72px;
+        padding: 3em;
     }
 
     .Paragraph-Description {
-        font-size: 16px;
-        line-height: 21px;
-        letter-spacing: 0.5px;
+        font-size: 1em;
+        line-height: 1.3125em;
+        letter-spacing: 0.03125em;
     }
 }
