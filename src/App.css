@@ -35,12 +35,12 @@
 
 .Paragraph-Description {
     font-family: 'Helvetica Neue', Helvetica;
-    font-size: 1.25em;
-    line-height: 1.3125em;
+    font-size: 1em;
+    line-height: 1.5em;
     letter-spacing: 0.03125em;
     margin: 0;
     margin-right: auto;
-    padding: 10px;
+    padding: 0.625em;
     padding-right: 0.75em;
     padding-left: 0.75em;
     background: #20232D;
