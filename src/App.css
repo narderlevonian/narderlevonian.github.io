@@ -41,8 +41,8 @@
     margin: 0;
     margin-right: auto;
     padding: 0.625em;
-    padding-right: 0.75em;
-    padding-left: 0.75em;
+    padding-right: 1em;
+    padding-left: 1em;
     background: #20232D;
     color: #E1E3E9;
 }
