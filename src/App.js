@@ -1,4 +1,4 @@
-import './App.css';
+import React from 'react'
 
 import Icon500px from "./images/500px.svg";
 import IconBandcamp from "./images/Bandcamp.svg";
@@ -11,6 +11,7 @@ import IconMedium from "./images/Medium.svg";
 import IconTwitter from "./images/Twitter.svg";
 import IconYouTube from "./images/YouTube.svg";
 
+import './App.css';
 
 const Name = "Nar der Levonian";
 const Description = "Interface Designer and Software Developer";
@@ -62,10 +63,10 @@ const LinksArray = [
 function Links() {
     return LinksArray.map((item, i) => {
         return (
-            <a className="Div-LinkItem" href={item.Link} target="_blank">
-                <img src={item.Icon} />
+            <a className="Div-LinkItem" href={item.Link} target="_blank" rel="noopener noreferrer">
+                <img src={item.Icon} alt="Link" />
             </a>
-        )
+        );
     });
 }
 
