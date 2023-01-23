@@ -15,7 +15,7 @@ import './App.css';
 
 const Name = "Nar der Levonian";
 const Description = "Interface Designer / Software Developer";
-const Info = "I am engaged in visionary art (experimental music, photography of a new vision, and (de) generative art), gonzo journalism, and the Romanization of the Russian language.";
+const Info = "I am engaged in visionary art (experimental music, Neues Sehen photography, and (de)generative art), gonzo journalism, and the Romanization of the Russian language.";
 const LinksTitle = "Get in touch with me:";
 const LinksArray = [
     {
