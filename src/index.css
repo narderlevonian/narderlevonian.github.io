@@ -1,0 +1,9 @@
+body {
+  background: #DB9E24;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+    display: flex;
+}
