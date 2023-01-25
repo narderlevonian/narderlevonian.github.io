@@ -94,7 +94,6 @@ function GetOtherLinks() {
 }
 
 function App() {
-    alert({ResumePDF})
     return (
         <div className="Main">
             <p className="Paragraph-Name">{NameText}</p>
