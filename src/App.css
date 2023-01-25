@@ -75,6 +75,29 @@
     color: #20232D;
 }
 
+.Paragraph-Other {
+    font-family: 'Helvetica Neue', Helvetica;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1.5em;
+    letter-spacing: 0.03125em;
+    max-width: 36em;
+    margin: 0;
+    margin-top: -0.5em;
+    color: #20232D;
+}
+
+.Paragraph-Other a {
+    color: #B8851E;
+    text-decoration: none;
+    transition: 0.64s;
+}
+
+.Paragraph-Other a:hover {
+    color: #DB9E24;
+    transition: 0.32s;
+}
+
 .Div-Links {
     display: flex;
     flex-wrap: wrap;

@@ -1,5 +1,7 @@
 import React from 'react'
 
+import './App.css';
+
 import Icon500px from "./images/500px.svg";
 import IconBandcamp from "./images/Bandcamp.svg";
 import IconDribbble from "./images/Dribbble.svg";
@@ -11,10 +13,10 @@ import IconMedium from "./images/Medium.svg";
 import IconTwitter from "./images/Twitter.svg";
 import IconYouTube from "./images/YouTube.svg";
 
-import './App.css';
+import ResumePDF from "./pdf/Nar-der-Levonian-CV.pdf";
 
 const Name = "Nar der Levonian";
-const Description = "Interface Designer / Software Developer";
+const Description = "UX/UI Designer";
 const Info = "I am engaged in visionary art (experimental music, Neues Sehen photography, and (de)generative art), gonzo journalism, and the Romanization of the Russian language.";
 const LinksTitle = "Get in touch with me:";
 const LinksArray = [
@@ -80,6 +82,11 @@ function App() {
             <div className="Div-Links">
                 {Links()}
             </div>
+            <p className="Paragraph-Other">
+                <a href="mailto:narderlevonian@hotmail.com">Email me</a>
+                <br />
+                <a href={ResumePDF} target="_blank" rel="noopener noreferrer">Download CV</a>
+            </p>
         </div>
     );
 }
