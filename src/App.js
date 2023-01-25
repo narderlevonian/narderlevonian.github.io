@@ -15,11 +15,13 @@ import IconYouTube from "./images/YouTube.svg";
 
 import ResumePDF from "./pdf/Nar-der-Levonian-CV.pdf";
 
-const Name = "Nar der Levonian";
-const Description = "UX/UI Designer";
-const Info = "I am engaged in visionary art (experimental music, Neues Sehen photography, and (de)generative art), gonzo journalism, and the Romanization of the Russian language.";
-const LinksTitle = "Get in touch with me:";
-const LinksArray = [
+const NameText = "Nar der Levonian";
+const DescriptionText = "Interface Designer and Software Engineer";
+const InfoText = "I am engaged in visionary art (experimental music, Neues Sehen photography, and (de)generative art), gonzo journalism, and the Romanization of the Russian language.";
+const LinksTitleText = "Get in touch with me:";
+const OtherText = "Other:";
+
+const SocialMediaLinksArray = [
     {
         Icon: IconInstagram,
         Link: "http://instagram.com/narderlevonian"
@@ -62,12 +64,31 @@ const LinksArray = [
     },
 ]
 
-function Links() {
-    return LinksArray.map((item, i) => {
+const OtherLinksArray = [
+    {
+        Link: "mailto:narderlevonian@hotmail.com",
+        Caption: "Email Me"
+    },
+    {
+        Link: {ResumePDF},
+        Caption: "Download CV/Resume"
+    }
+]
+
+function GetSocialMediaLinks() {
+    return SocialMediaLinksArray.map((item, i) => {
         return (
-            <a className="Div-LinkItem" href={item.Link} target="_blank" rel="noopener noreferrer">
-                <img className="Div-LinkItem-Image" src={item.Icon} alt="Link" />
+            <a className="Div-SocialMedia-LinkItem" href={item.Link} target="_blank" rel="noopener noreferrer">
+                <img className="Image-SocialMedia-LinkItem" src={item.Icon} alt="Link" />
             </a>
+        );
+    });
+}
+
+function GetOtherLinks() {
+    return OtherLinksArray.map((item, i) => {
+        return (
+            <a className="A-Other-LinkItem" href={item.Link} target="_blank" rel="noopener noreferrer"> {item.Caption}</a>
         );
     });
 }
@@ -75,18 +96,17 @@ function Links() {
 function App() {
     return (
         <div className="Main">
-            <p className="Paragraph-Name">{Name}</p>
-            <p className="Paragraph-Description">{Description}</p>
-            <p className="Paragraph-Info">{Info}</p>
-            <p className="Paragraph-Links">{LinksTitle}</p>
-            <div className="Div-Links">
-                {Links()}
+            <p className="Paragraph-Name">{NameText}</p>
+            <p className="Paragraph-Description">{DescriptionText}</p>
+            <p className="Paragraph">{InfoText}</p>
+            <p className="Paragraph">{LinksTitleText}</p>
+            <div className="Div-SocialMedia-Links">
+                {GetSocialMediaLinks()}
             </div>
-            <p className="Paragraph-Other">
-                <a href="mailto:narderlevonian@hotmail.com">Email me</a>
-                <br />
-                <a href={ResumePDF} target="_blank" rel="noopener noreferrer">Download CV</a>
-            </p>
+            <p className="Paragraph">{OtherText}</p>
+            <div className="Div-Other-Links">
+                {GetOtherLinks()}
+            </div>
         </div>
     );
 }
