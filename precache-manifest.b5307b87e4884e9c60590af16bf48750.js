@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "d0c57a1e2c2e7b6118c2",
-    "url": "/static/css/main.45925ac2.chunk.css"
+    "revision": "9209955295821cb1b208",
+    "url": "/static/css/main.d09b9d46.chunk.css"
   },
   {
-    "revision": "d0c57a1e2c2e7b6118c2",
-    "url": "/static/js/main.d0c57a1e.chunk.js"
+    "revision": "9209955295821cb1b208",
+    "url": "/static/js/main.92099552.chunk.js"
   },
   {
     "revision": "e459cc6ec89340cad24c",
@@ -64,23 +64,39 @@ self.__precacheManifest = [
     "url": "/static/media/Nar-der-Levonian-CV.dd3696de.pdf"
   },
   {
-    "revision": "dcf2fb065e643fdd96321626fa415a82",
-    "url": "/static/media/HelveticaNeue-Light.dcf2fb06.ttf"
+    "revision": "168da9fd06e7c58181a9e462a8728aff",
+    "url": "/static/media/HelveticaNeue-CondensedBold.168da9fd.woff2"
   },
   {
-    "revision": "a6f72b5bd9e384908c4b976b5f989c52",
-    "url": "/static/media/HelveticaNeue-CondensedBold.a6f72b5b.ttf"
+    "revision": "b9b19cf40c23581012d93cdf6b5882e3",
+    "url": "/static/media/HelveticaNeue-Regular.b9b19cf4.woff2"
+  },
+  {
+    "revision": "f1ff47ea2bc1fd3fd3d99628c2cde54b",
+    "url": "/static/media/HelveticaNeue-Medium.f1ff47ea.woff2"
   },
   {
     "revision": "f41a121fe86b44b6ce5e087231f18fef",
     "url": "/static/media/HelveticaNeue-Medium.f41a121f.ttf"
   },
   {
+    "revision": "4ce9031ea8ede17b315864cd0b289511",
+    "url": "/static/media/HelveticaNeue-Light.4ce9031e.woff2"
+  },
+  {
+    "revision": "a6f72b5bd9e384908c4b976b5f989c52",
+    "url": "/static/media/HelveticaNeue-CondensedBold.a6f72b5b.ttf"
+  },
+  {
+    "revision": "dcf2fb065e643fdd96321626fa415a82",
+    "url": "/static/media/HelveticaNeue-Light.dcf2fb06.ttf"
+  },
+  {
     "revision": "c8c88e6e8303225ca0b54820d650e98c",
     "url": "/static/media/HelveticaNeue-Regular.c8c88e6e.ttf"
   },
   {
-    "revision": "3bf635899696ac0ebd7cdff0b47e2e09",
+    "revision": "4f6ffd2aebd5be5eb0bba97857770a64",
     "url": "/index.html"
   }
 ];
