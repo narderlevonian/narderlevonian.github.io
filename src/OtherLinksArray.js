@@ -7,7 +7,7 @@ export default [
     },
     {
         Link: 'https://narderlevonian.space/klukva-translator',
-        Caption: 'Klükva. Russian Cyrillic to Latin Translator'
+        Caption: 'Klükva. Cyr to Lat Translator'
     },
     {
         Link: ResumePDF,

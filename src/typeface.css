@@ -1,31 +1,40 @@
+
 @font-face {
     font-family: 'Helvetica Neue Condensed Bold';
-    src: url(./typeface/HelveticaNeue-CondensedBold.ttf)
-         format('truetype')
-         url(./typeface/HelveticaNeue-CondensedBold.woff2)
-         format('woff2')
+    src: url('./typeface/HelveticaNeue-CondensedBold.ttf')
+         format('truetype'),
+         url('./typeface/HelveticaNeue-CondensedBold.woff2')
+         format('woff2');
  }
 
  @font-face {
      font-family: 'Helvetica Neue Regular';
-     src: url(./typeface/HelveticaNeue-Regular.ttf)
-          format('truetype');
-     src: url(./typeface/HelveticaNeue-Regular.woff2)
+     src: url('./typeface/HelveticaNeue-Regular.ttf')
+          format('truetype'),
+          url('./typeface/HelveticaNeue-Regular.woff2')
           format('woff2');
  }
 
  @font-face {
      font-family: 'Helvetica Neue Light';
-     src: url(./typeface/HelveticaNeue-Light.ttf)
-          format('truetype');
-     src: url(./typeface/HelveticaNeue-Light.woff2)
+     src: url('./typeface/HelveticaNeue-Light.ttf')
+          format('truetype'),
+          url('./typeface/HelveticaNeue-Light.woff2')
           format('woff2');
  }
 
  @font-face {
      font-family: 'Helvetica Neue Medium';
-     src: url(./typeface/HelveticaNeue-Medium.ttf)
-          format('truetype');
-     src: url(./typeface/HelveticaNeue-Medium.woff2)
+     src: url('./typeface/HelveticaNeue-Medium.ttf')
+          format('truetype'),
+          url('./typeface/HelveticaNeue-Medium.woff2')
+          format('woff2');
+ }
+
+ @font-face {
+     font-family: 'Helvetica Neue Bold';
+     src: url('./typeface/HelveticaNeue-Bold.ttf')
+          format('truetype'),
+          url('./typeface/HelveticaNeue-Bold.woff2')
           format('woff2');
  }

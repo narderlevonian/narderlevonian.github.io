@@ -1,5 +1,3 @@
-@import './typeface.css';
-@import './index.css';
 
 .Main {
     display: -webkit-box;
@@ -46,7 +44,7 @@
 .Paragraph-Name {
     font-family: 'Helvetica Neue Condensed Bold', Helvetica;
     font-size: 6em;
-    line-height: 0.8em;
+    line-height: 0.75em;
     letter-spacing: -0.05em;
     margin: 0;
     margin-left: -0.05em;
@@ -57,7 +55,7 @@
     font-family: 'Helvetica Neue Light', Helvetica;
     font-size: 1em;
     line-height: 1em;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.01em;
     margin: 0;
     margin-right: auto;
     margin-bottom: -3px;
@@ -82,6 +80,18 @@
 
 @media only screen and (max-width: 760px) {
     .Main {
-        padding: 3em;
+        padding: 2em;
+    }
+
+    .Paragraph-Description {
+        font-size: 0.875em;
+        line-height: 1.3125em;
+        letter-spacing: 0.01em;
+    }
+
+    .Paragraph {
+        font-size: 0.875em;
+        line-height: 1.3125em;
+        letter-spacing: 0.01em;
     }
 }
