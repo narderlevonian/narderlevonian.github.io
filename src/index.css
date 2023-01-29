@@ -1,31 +1,4 @@
-
-
-@font-face {
-    font-family: 'Helvetica Neue Condensed Bold';
-    src: url(./typeface/HelveticaNeue-CondensedBold.ttf)
-         format('ttf');
- }
-
- @font-face {
-     font-family: 'Helvetica Neue Regular';
-     src: local('HelveticaNeue')
-          url(./typeface/HelveticaNeue-Regular.ttf)
-          format('ttf');
- }
-
- @font-face {
-     font-family: 'Helvetica Neue Light';
-     src: local('HelveticaNeue')
-          url(./typeface/HelveticaNeue-Light.ttf)
-          format('ttf');
- }
-
- @font-face {
-     font-family: 'Helvetica Neue Medium';
-     src: local('HelveticaNeue')
-          url(./typeface/HelveticaNeue-Medium.ttf)
-          format('ttf');
- }
+@import './typeface.css';
 
  * {
      -webkit-transition: 0.32s;
