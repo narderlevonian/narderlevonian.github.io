@@ -64,36 +64,36 @@ self.__precacheManifest = [
     "url": "/static/media/Nar-der-Levonian-CV.dd3696de.pdf"
   },
   {
-    "revision": "168da9fd06e7c58181a9e462a8728aff",
-    "url": "/static/media/HelveticaNeue-CondensedBold.168da9fd.woff2"
-  },
-  {
-    "revision": "a6f72b5bd9e384908c4b976b5f989c52",
-    "url": "/static/media/HelveticaNeue-CondensedBold.a6f72b5b.ttf"
-  },
-  {
-    "revision": "b9b19cf40c23581012d93cdf6b5882e3",
-    "url": "/static/media/HelveticaNeue-Regular.b9b19cf4.woff2"
-  },
-  {
     "revision": "4ce9031ea8ede17b315864cd0b289511",
     "url": "/static/media/HelveticaNeue-Light.4ce9031e.woff2"
-  },
-  {
-    "revision": "f1ff47ea2bc1fd3fd3d99628c2cde54b",
-    "url": "/static/media/HelveticaNeue-Medium.f1ff47ea.woff2"
   },
   {
     "revision": "dcf2fb065e643fdd96321626fa415a82",
     "url": "/static/media/HelveticaNeue-Light.dcf2fb06.ttf"
   },
   {
-    "revision": "f41a121fe86b44b6ce5e087231f18fef",
-    "url": "/static/media/HelveticaNeue-Medium.f41a121f.ttf"
+    "revision": "a6f72b5bd9e384908c4b976b5f989c52",
+    "url": "/static/media/HelveticaNeue-CondensedBold.a6f72b5b.ttf"
+  },
+  {
+    "revision": "f1ff47ea2bc1fd3fd3d99628c2cde54b",
+    "url": "/static/media/HelveticaNeue-Medium.f1ff47ea.woff2"
+  },
+  {
+    "revision": "168da9fd06e7c58181a9e462a8728aff",
+    "url": "/static/media/HelveticaNeue-CondensedBold.168da9fd.woff2"
+  },
+  {
+    "revision": "b9b19cf40c23581012d93cdf6b5882e3",
+    "url": "/static/media/HelveticaNeue-Regular.b9b19cf4.woff2"
   },
   {
     "revision": "4bdfe49c3105e55d24999c34d906ab0f",
     "url": "/static/media/HelveticaNeue-Bold.4bdfe49c.woff2"
+  },
+  {
+    "revision": "f41a121fe86b44b6ce5e087231f18fef",
+    "url": "/static/media/HelveticaNeue-Medium.f41a121f.ttf"
   },
   {
     "revision": "c8c88e6e8303225ca0b54820d650e98c",
