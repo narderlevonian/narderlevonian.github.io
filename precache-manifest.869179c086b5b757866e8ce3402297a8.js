@@ -64,16 +64,16 @@ self.__precacheManifest = [
     "url": "/static/media/Nar-der-Levonian-CV.dd3696de.pdf"
   },
   {
+    "revision": "dcf2fb065e643fdd96321626fa415a82",
+    "url": "/static/media/HelveticaNeue-Light.dcf2fb06.ttf"
+  },
+  {
     "revision": "a6f72b5bd9e384908c4b976b5f989c52",
     "url": "/static/media/HelveticaNeue-CondensedBold.a6f72b5b.ttf"
   },
   {
     "revision": "f41a121fe86b44b6ce5e087231f18fef",
     "url": "/static/media/HelveticaNeue-Medium.f41a121f.ttf"
-  },
-  {
-    "revision": "dcf2fb065e643fdd96321626fa415a82",
-    "url": "/static/media/HelveticaNeue-Light.dcf2fb06.ttf"
   },
   {
     "revision": "c8c88e6e8303225ca0b54820d650e98c",
