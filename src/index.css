@@ -1,3 +1,5 @@
+
+
 @font-face {
     font-family: 'Helvetica Neue Condensed Bold';
     src: url(./typeface/HelveticaNeue-CondensedBold.ttf)
@@ -26,15 +28,40 @@
  }
 
  * {
-     transition: 0.32s;
+     -webkit-transition: 0.32s;
+          -o-transition: 0.32s;
+             transition: 0.32s;
  }
 
 body {
   background: #DB9E24;
   margin: 0;
   padding: 0;
+
+  -webkit-animation: 2s linear 0s 1 changeBackgroundColor;
+          animation: 2s linear 0s 1 changeBackgroundColor;
+}
+
+@-webkit-keyframes changeBackgroundColor {
+    0% {
+        background: #B42222;
+    }
+    50% {
+        background: #DB9E24;
+    }
+}
+
+@keyframes changeBackgroundColor {
+    0% {
+        background: #B42222;
+    }
+    50% {
+        background: #DB9E24;
+    }
 }
 
 #root {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
