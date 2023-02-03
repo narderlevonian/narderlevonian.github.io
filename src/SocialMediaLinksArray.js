@@ -40,7 +40,7 @@ export default [
     },
     {
         Icon: IconYouTube,
-        Link: 'http://youtube.com/@narderlevoniani'
+        Link: 'http://youtube.com/@narderlevonian'
     },
     {
         Icon: IconGitHub,
