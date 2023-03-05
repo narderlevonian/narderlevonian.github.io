@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.a31a116d.chunk.css",
-  "main.js": "/static/js/main.13d820b9.chunk.js",
-  "main.js.map": "/static/js/main.13d820b9.chunk.js.map",
+  "main.js": "/static/js/main.583ae455.chunk.js",
+  "main.js.map": "/static/js/main.583ae455.chunk.js.map",
   "static/js/1.e459cc6e.chunk.js": "/static/js/1.e459cc6e.chunk.js",
   "static/js/1.e459cc6e.chunk.js.map": "/static/js/1.e459cc6e.chunk.js.map",
   "static/js/2.529d6377.chunk.js": "/static/js/2.529d6377.chunk.js",
@@ -18,10 +18,10 @@
   "static/media/Medium.svg": "/static/media/Medium.15420335.svg",
   "static/media/Twitter.svg": "/static/media/Twitter.666c26ee.svg",
   "static/media/YouTube.svg": "/static/media/YouTube.23b40581.svg",
-  "static/media/Nar-der-Levonian-CV.pdf": "/static/media/Nar-der-Levonian-CV.023ce696.pdf",
-  "static/media/index.css": "/static/media/HelveticaNeue-Regular.c8c88e6e.ttf",
+  "static/media/Nar-der-Levonian-CV.pdf": "/static/media/Nar-der-Levonian-CV.76c71fd8.pdf",
+  "static/media/index.css": "/static/media/HelveticaNeue-Bold.35759a36.ttf",
   "static/css/main.a31a116d.chunk.css.map": "/static/css/main.a31a116d.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.b7c7665fb7ba79fefc4b0725c3cd38da.js": "/precache-manifest.b7c7665fb7ba79fefc4b0725c3cd38da.js",
+  "precache-manifest.43400cd5f04466598db61444601c2d1b.js": "/precache-manifest.43400cd5f04466598db61444601c2d1b.js",
   "service-worker.js": "/service-worker.js"
 }
